@@ -71,10 +71,7 @@ def runner
   total = hit?(total)
 
   display_card_total(total)
-  if total = 21 
-    puts "BLACKJACK!!"
-  end
-  
+
 end
 end_game(total)
   
